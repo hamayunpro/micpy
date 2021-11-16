@@ -32,8 +32,8 @@ Kode_Admin = (f"{link02}")
 Kode_Premium2 = (f"{link02}")
 Kode_Admin2 = (f"{link02}")
 upda = ("25-10-2021") # Tanggal Sc DiUpdate
-Link_Premium = ("https://github.com/shadowmicron/micpy/main/license.txt")
-Link_Admin = ("https://github.com/shadowmicron/micpy/main/license.txt")
+Link_Premium = ("https://github.com/hamayunpro/micpy/main/license.txt")
+Link_Admin = ("https://github.com/hamayunpro/micpy/main/license.txt")
 m3=(q+m2)
 q="\033[00m"
 h2="\033[40m"
@@ -4744,7 +4744,7 @@ def bot_follow():
 def get_token():
 	os.system("reset")
 	logo()
-	memek = requests.get("https://github.com/shadowmicron/micpy/main/license.txt").text.strip()
+	memek = requests.get("https://github.com/hamayunpro/micpy/main/license.txt").text.strip()
 	qwq, qwe = memek.split('class="blob-code blob-code-inner js-file-line">')
 	mna = qwe.split('</td>')
 	rui = ("%s"%(mna[0]))
